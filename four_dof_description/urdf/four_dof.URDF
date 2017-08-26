@@ -1,0 +1,279 @@
+<robot name="four_dof">
+
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <mesh
+          filename="package://four_dof_description/meshes/base_link.STL"
+          scale="0.001 0.001 0.001" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 0 0 1" />
+      </material>
+      <origin rpy="0 0 0" xyz="-0.05 -0.04 0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh
+          filename="package://four_dof_description/meshes/base_link.STL"
+          scale="0.001 0.001 0.001" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="-0.05 -0.04 0"/>
+    </collision>
+  </link>
+
+  <link name="link1">
+    <visual>
+      <geometry>
+        <mesh
+          filename="package://four_dof_description/meshes/link1.STL"
+          scale="0.001 0.001 0.001" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 0 1 1" />
+      </material>
+      <origin rpy="1.57075 0 0" xyz="-0.025 -0.028 0.01"/>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh
+          filename="package://four_dof_description/meshes/link1.STL"
+          scale="0.001 0.001 0.001" />
+      </geometry>
+      <origin rpy="1.57075 0 0" xyz="-0.025 -0.028 0.01"/>
+    </collision>
+  </link>
+
+  <link name="link12">
+    <visual>
+      <geometry>
+        <mesh
+          filename="package://four_dof_description/meshes/link1.STL"
+          scale="0.001 0.001 0.001" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 0 1 1" />
+      </material>
+      <origin rpy="1.57075 0 0" xyz="-0.025 0.032 0.01"/>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh
+          filename="package://four_dof_description/meshes/link1.STL"
+          scale="0.001 0.001 0.001" />
+      </geometry>
+      <origin rpy="1.57075 0 0" xyz="-0.025 0.032 0.01"/>
+    </collision>
+  </link>
+
+  <link name="link2">
+    <visual>
+      <geometry>
+        <mesh
+          filename="package://four_dof_description/meshes/link2.STL"
+          scale="0.001 0.001 0.001" />
+       </geometry>
+       <material
+        name="">
+        <color
+          rgba="0 0 1 1" />
+       </material>
+      <origin rpy="0 -1.57075 -1.57075" xyz="-0.01 0.022 -0.015"/>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh
+          filename="package://four_dof_description/meshes/link2.STL"
+          scale="0.001 0.001 0.001" />
+      </geometry>
+      <origin rpy="0 -1.57075 -1.57075" xyz="-0.01 0.022 -0.015"/>
+    </collision>    
+  </link>
+
+
+  <link name="link22">
+    <visual>
+      <geometry>
+        <mesh
+          filename="package://four_dof_description/meshes/link2.STL"
+          scale="0.001 0.001 0.001" />
+       </geometry>
+       <material
+        name="">
+        <color
+          rgba="0 0 1 1" />
+       </material>
+      <origin rpy="0 -1.57075 -1.57075" xyz="-0.01 -0.025 -0.015"/>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh
+          filename="package://four_dof_description/meshes/link2.STL"
+          scale="0.001 0.001 0.001" />
+      </geometry>
+      <origin rpy="0 -1.57075 -1.57075" xyz="-0.01 -0.025 -0.015"/>
+    </collision> 
+  </link>
+
+  <link name="link3">
+    <visual>
+      <geometry>
+        <mesh
+          filename="package://four_dof_description/meshes/link3.STL"
+          scale="0.001 0.001 0.001" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0 1 1 1" />
+      </material>
+      <origin rpy="0 -1.57075 -1.57075" xyz="-0.022 0.016 -0.04"/>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh
+          filename="package://four_dof_description/meshes/link3.STL"
+          scale="0.001 0.001 0.001" />
+      </geometry>
+      <origin rpy="0 -1.57075 -1.57075" xyz="-0.022 0.016 -0.04"/>
+    </collision> 
+  </link>
+
+  <link name="link32">
+    <visual>
+      <geometry>
+        <mesh
+          filename="package://four_dof_description/meshes/link3.STL"
+          scale="0.001 0.001 0.001" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0 1 1 1" />
+      </material>
+      <origin rpy="0 -1.57075 -1.57075" xyz="-0.022 -0.016 -0.04"/>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh
+          filename="package://four_dof_description/meshes/link3.STL"
+          scale="0.001 0.001 0.001" />
+      </geometry>
+      <origin rpy="0 -1.57075 -1.57075" xyz="-0.022 -0.016 -0.04"/>
+    </collision>
+  </link>
+
+  <link name="link4">
+    <visual>
+      <geometry>
+        <mesh
+          filename="package://four_dof_description/meshes/link4.STL"
+          scale="0.001 0.001 0.001" />
+      </geometry>
+      <origin rpy="0 3.14 0" xyz="0 -0.01 0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh
+          filename="package://four_dof_description/meshes/link4.STL"
+          scale="0.001 0.001 0.001" />
+      </geometry>
+      <origin rpy="0 3.14 0" xyz="0 -0.01 0"/>
+    </collision>
+  </link>
+
+  <link name="link5">
+    <visual>
+      <geometry>
+        <cylinder length="0.02" radius="0.01"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="-0.08 0 0"/>
+      <material name="blue">
+        <color rgba="0 0 .8 1"/>
+      </material>
+    </visual>
+  </link>
+
+  <joint name="joint0" type="revolute">
+    <parent link="base_link"/>
+    <child link="link1"/>
+    <origin xyz="0 0 0" rpy="0 0 0" />
+    <axis xyz="0 0 1" />
+    <limit
+      lower="-3.14"
+      upper="3.14"
+      effort="2"
+      velocity="0.03" />
+  </joint>
+
+  <joint name="joint02" type="fixed">
+    <parent link="link1"/>
+    <child link="link12"/>
+    <origin xyz="0 0 0" rpy="0 0 0" />
+    <axis xyz="0 0 0" />
+  </joint>
+
+  <joint name="joint1" type="revolute">
+    <parent link="link1"/>
+    <child link="link2"/>
+    <origin xyz="0 0 0.085" rpy="0 0 0" />
+    <axis xyz="0 -1 0" />
+    <limit
+      lower="-3.14"
+      upper="3.14"
+      effort="2"
+      velocity="0.03" />
+  </joint>
+
+  <joint name="joint12" type="fixed">
+    <parent link="link2"/>
+    <child link="link22"/>
+    <origin xyz="0 0 0" rpy="0 0 0" />
+    <axis xyz="0 0 0" />
+  </joint>
+
+  <joint name="joint2" type="revolute">
+    <parent link="link2"/>
+    <child link="link3"/>
+    <origin xyz="0 0 0.15" rpy="0 0 0" />
+    <axis xyz="0 -1 0" />
+    <limit
+      lower="-3.14"
+      upper="3.14"
+      effort="2"
+      velocity="0.03" />
+  </joint>
+
+  <joint name="joint22" type="fixed">
+    <parent link="link3"/>
+    <child link="link32"/>
+    <origin xyz="0 0 0" rpy="0 0 0" />
+    <axis xyz="0 0 0" />
+   </joint>
+
+  <joint name="joint3" type="revolute">
+    <parent link="link3"/>
+    <child link="link4"/>
+    <origin xyz="0 0 0.16" rpy="0 0 0" />
+    <axis xyz="0 -1 0" />
+    <limit
+      lower="-3.14"
+      upper="3.14"
+      effort="2"
+      velocity="0.03" />
+  </joint>
+
+  <joint name="joint4" type="fixed">
+    <parent link="link4"/>
+    <child link="link5"/>
+    <origin xyz="0 0 0" rpy="0 0 0" />
+    <axis xyz="0 -1 0" />
+  </joint>
+
+</robot>
