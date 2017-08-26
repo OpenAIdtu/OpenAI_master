@@ -1,0 +1,11 @@
+<launch>
+
+ 
+ 
+ <include file="$(find four_dof_config)/launch/moveit_planning_execution.launch"/>
+ <include file="$(find four_dof_config)/launch/test.launch"/>
+ 
+
+ 
+
+</launch>

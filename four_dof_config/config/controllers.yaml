@@ -1,0 +1,27 @@
+controller_list:
+ - name: four_dof_arm_controller
+   action_ns: follow_joint_trajectory
+   type: FollowJointTrajectory
+   default: true
+   joints:
+     - joint0
+     - joint1
+     - joint2
+     - joint3
+
+constraints:
+    goal_time: 20                   
+    stopped_velocity_tolerance: 0.1
+    joint0:
+      trajectory: 0.1              
+      goal: 0.1
+    joint1:
+      trajectory: 0.1              
+      goal: 0.1                 
+    joint2:
+      trajectory: 0.1             
+      goal: 0.1
+    joint3:
+      trajectory: 0.1             
+      goal: 0.1
+    
